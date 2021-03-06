@@ -24,16 +24,16 @@
     <!--Default/Android Status Bar-->
     <color name="primary_color_dark_light">#FF1A2027</color>
     <!--Default/Base-->
-    <color name="primary_color_light">#03b381</color>
+    <color name="primary_color_light">#345B9E</color>
     <!--Default/Accent-->
-    <color name="accent_color_light">#03b381</color>
+    <color name="accent_color_light">#345B9E</color>
 
     <!--Dark/Android Status Bar-->
     <color name="primary_color_dark_dark">#FF0D0E10</color>
     <!--Dark/Base-->
     <color name="primary_color_dark">#FF15171B</color>
     <!--Dark/Accent-->
-    <color name="accent_color_dark">#03b381</color>
+    <color name="accent_color_dark">#304685</color>
 
     <!--Black/Android Status Bar-->
     <color name="primary_color_dark_black">#000</color>
@@ -112,8 +112,8 @@
         <!-- Source: https://zpl.io/aBKw9Mk -->
 
     <!-- Accents -->
-    <color name="riotx_accent">#FF0DBD8B</color>
-    <color name="riotx_accent_alpha25">#3F0DBD8B</color>
+    <color name="riotx_accent">#345B9E</color>
+    <color name="riotx_accent_alpha25">#324889</color>
 
 
     <color name="riotx_destructive_accent">#FFFF4B55</color>

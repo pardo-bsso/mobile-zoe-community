@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<layer-list
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:drawable="@color/white"
+        />
 
-<!-- The android:opacity=”opaque” line — this is critical in preventing a flash of black as your theme transitions. -->
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android"
-    android:opacity="opaque">
+    <item
+        android:drawable="@drawable/ic_logo_paloma"
+        android:width="512px"
+        android:height="512px"
+        android:gravity="center"
 
-    <!-- Background color -->
-    <item android:drawable="@color/riotx_accent" />
-
-    <!-- Centered logo -->
-    <item>
-        <bitmap
-            android:gravity="center"
-            android:src="@drawable/riot_splash_white" />
-    </item>
-
+        />
 </layer-list>

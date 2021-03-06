@@ -86,7 +86,7 @@ apply plugin: 'org.sonarqube'
 
 sonarqube {
     properties {
-        property "sonar.projectName", "Element-Android"
+        property "sonar.projectName", "ZOE Social"
         property "sonar.projectKey", "im.vector.app.android"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.projectVersion", project(":vector").android.defaultConfig.versionName
