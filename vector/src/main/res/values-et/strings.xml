@@ -998,13 +998,13 @@
     <string name="login_server_other_text">Kohandatud seadistused</string>
     <string name="login_continue">Jätka</string>
     <string name="login_connect_to">Ühenda koduserveriga %1$s</string>
-    <string name="login_connect_to_modular">Ühenda teenusepakkujaga Element Matrix Services</string>
+    <string name="login_connect_to_modular">Ühenda teenusepakkujaga Element  Services</string>
     <string name="login_connect_to_a_custom_server">Ühenda kohandatud koduserveriga</string>
     <string name="login_signin_to">Logi sisse koduserverisse %1$s</string>
     <string name="login_signup">Registreeru</string>
     <string name="login_signin">Logi sisse</string>
     <string name="login_signin_sso">Jätka kasutades SSO\'d ehk ühekordset autentimist</string>
-    <string name="login_server_url_form_modular_hint">Element Matrix Services teenuse aadress</string>
+    <string name="login_server_url_form_modular_hint">Element  Services teenuse aadress</string>
     <string name="login_server_url_form_other_hint">Aadress</string>
     <string name="login_server_url_form_modular_text">Tasuline Matrix\'i majutusteenus organisatsioonidele</string>
     <string name="login_server_url_form_modular_notice">Sisesta Modular Element teenuse või muu serveri aadress, mida sa soovid kasutada</string>
@@ -1865,8 +1865,8 @@
     <string name="login_signup_cancel_confirmation_content">Sinu kasutajakonto pole veel loodud.
 \n
 \nKas katkestame konto registreerimise\?</string>
-    <string name="login_a11y_choose_matrix_org">Vali matrix.org</string>
-    <string name="login_a11y_choose_modular">Vali teenusepakkujaks Element Matrix Services</string>
+    <string name="login_a11y_choose_matrix_org">Vali app.zoe.cash</string>
+    <string name="login_a11y_choose_modular">Vali teenusepakkujaks Element  Services</string>
     <string name="login_a11y_choose_other">Vali mõni muu koduserver</string>
     <string name="login_a11y_captcha_container">Palun tee läbi robotilõksu katse</string>
     <string name="login_terms_title">Jätkamiseks nõustu kasutustingimustega</string>

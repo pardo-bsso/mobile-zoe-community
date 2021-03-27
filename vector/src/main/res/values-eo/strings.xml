@@ -884,8 +884,8 @@
     <string name="login_terms_title">Akceptu la uzokondiĉojn por pluiĝi</string>
     <string name="login_a11y_captcha_container">Bonvolu fari la teston de homeco</string>
     <string name="login_a11y_choose_other">Elekti propran hejmservilon</string>
-    <string name="login_a11y_choose_modular">Elekti Element Matrix Services</string>
-    <string name="login_a11y_choose_matrix_org">Elekti matrix.org</string>
+    <string name="login_a11y_choose_modular">Elekti Element  Services</string>
+    <string name="login_a11y_choose_matrix_org">Elekti app.zoe.cash</string>
     <string name="login_signup_cancel_confirmation_content">Via konto ankoraŭ ne estas kreita.
 \n
 \nĈu haltigi la registriĝon\?</string>
@@ -939,7 +939,7 @@
     <string name="login_sso_error_message">Eraris enlegado de la paĝo: %1$s (%2$d)</string>
     <string name="login_server_url_form_common_notice">Enigu adreson de servilo, kiun vi volas uzi</string>
     <string name="login_server_url_form_other_hint">Adreso</string>
-    <string name="login_server_url_form_modular_hint">Adreso de Element Matrix Services</string>
+    <string name="login_server_url_form_modular_hint">Adreso de Element  Services</string>
     <string name="login_signin_to">Saluti al %1$s</string>
     <string name="login_connect_to_a_custom_server">Konektiĝi al propra servilo</string>
     <string name="login_connect_to_modular">Konektiĝi al «Element Matrix Services»</string>

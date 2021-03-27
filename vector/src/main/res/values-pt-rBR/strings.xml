@@ -1918,7 +1918,7 @@
     <string name="login_signup_cancel_confirmation_content">Sua conta ainda não foi criada.
 \n
 \nCancelar o processo de registro\?</string>
-    <string name="login_a11y_choose_matrix_org">Selecione matrix.org</string>
+    <string name="login_a11y_choose_matrix_org">Selecione app.zoe.cash</string>
     <string name="login_a11y_choose_modular">Selecione Element nos Serviços de Matrix</string>
     <string name="login_a11y_choose_other">Selecione um servidor personalizado</string>
     <string name="login_a11y_captcha_container">Por favor, realize o desafio de Captcha</string>

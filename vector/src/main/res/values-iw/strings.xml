@@ -1380,7 +1380,7 @@
     <string name="login_a11y_captcha_container">אנא בצע את אתגר ה- captcha</string>
     <string name="login_a11y_choose_other">בחר שרת בית מותאם אישית</string>
     <string name="login_a11y_choose_modular">בחר שירותי מטריקס אלמנט</string>
-    <string name="login_a11y_choose_matrix_org">בחר matrix.org</string>
+    <string name="login_a11y_choose_matrix_org">בחר app.zoe.cash</string>
     <string name="login_signup_cancel_confirmation_content">חשבונך טרם נוצר.
 \n
 \nלהפסיק את תהליך ההרשמה\?</string>

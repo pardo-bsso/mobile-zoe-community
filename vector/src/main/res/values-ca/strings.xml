@@ -2339,7 +2339,7 @@
     <string name="login_a11y_captcha_container">Resol el repte captcha</string>
     <string name="login_a11y_choose_other">Selecciona un servidor local personalitzat</string>
     <string name="login_a11y_choose_modular">Selecciona Serveis Matrix d\'Element</string>
-    <string name="login_a11y_choose_matrix_org">Selecciona matrix.org</string>
+    <string name="login_a11y_choose_matrix_org">Selecciona app.zoe.cash</string>
     <string name="login_signup_cancel_confirmation_content">El teu compte encara s\'ha creat.
 \n
 \nVols aturar el procés de registre\?</string>

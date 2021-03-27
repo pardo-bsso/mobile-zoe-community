@@ -1161,7 +1161,7 @@
     <string name="login_signup_to">Ffeɣ seg %1$s</string>
     <string name="login_signin_username_hint">Isem n useqdac neɣ imayl</string>
     <string name="login_signup_error_user_in_use">Isem-a n useqdac yettwamudd</string>
-    <string name="login_a11y_choose_matrix_org">Fren matrix.org</string>
+    <string name="login_a11y_choose_matrix_org">Fren app.zoe.cash</string>
     <string name="login_a11y_choose_modular">Fren imeẓla n Element Matrix</string>
     <string name="login_a11y_choose_other">Fren aqeddac agejdan udmawan</string>
     <string name="login_terms_title">Qbel tiwtilin i wakken ad tkemmleḍ</string>

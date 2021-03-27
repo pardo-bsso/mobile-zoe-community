@@ -1773,8 +1773,8 @@
     <string name="login_signup_cancel_confirmation_content">您的帐户尚未创建。
 \n
 \n是否中止注册过程？</string>
-    <string name="login_a11y_choose_matrix_org">选择 matrix.org</string>
-    <string name="login_a11y_choose_modular">选择 Element Matrix Services</string>
+    <string name="login_a11y_choose_matrix_org">选择 app.zoe.cash</string>
+    <string name="login_a11y_choose_modular">选择 Element  Services</string>
     <string name="login_a11y_choose_other">选择自定义家庭服务器</string>
     <string name="login_a11y_captcha_container">请进行人机验证</string>
     <string name="login_terms_title">接受条款以继续</string>

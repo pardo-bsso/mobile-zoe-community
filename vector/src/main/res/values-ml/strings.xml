@@ -120,7 +120,7 @@
     <string name="redact">നീക്കംചെയ്യൂ</string>
     <string name="backup">ബാക്കപ്പ്</string>
     <string name="title_activity_member_details">അംഗ വിശദാംശങ്ങൾ</string>
-    <string name="login_a11y_choose_matrix_org">matrix.org തിരഞ്ഞെടുക്കൂ</string>
+    <string name="login_a11y_choose_matrix_org">app.zoe.cash തിരഞ്ഞെടുക്കൂ</string>
     <string name="login_signup_submit">അടുത്തത്</string>
     <string name="login_signup_username_hint">ഉപയോക്തൃനാമം</string>
     <string name="login_msisdn_confirm_submit">അടുത്തത്</string>

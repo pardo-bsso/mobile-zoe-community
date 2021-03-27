@@ -1336,8 +1336,8 @@
     <string name="login_msisdn_notice">Vennligst bruk det internasjonale formatet (telefonnummeret må starte med \'+\')</string>
     <string name="login_msisdn_error_not_international">Internasjonale telefonnumre må starte med \'+\'</string>
     <string name="login_msisdn_error_other">Telefonnummeret virker ugyldig. Vennligst sjekk det</string>
-    <string name="login_a11y_choose_matrix_org">Velg matrix.org</string>
-    <string name="login_a11y_choose_modular">Velg Element Matrix Services</string>
+    <string name="login_a11y_choose_matrix_org">Velg app.zoe.cash</string>
+    <string name="login_a11y_choose_modular">Velg Element  Services</string>
     <string name="login_connect_using_matrix_id_notice">Alternativt, hvis du allerede har en konto og du kjenner din Matrix-identifikator og passordet ditt, kan du bruke denne metoden:</string>
     <string name="login_connect_using_matrix_id_submit">Logg på med Matrix ID</string>
     <string name="login_signin_matrix_id_notice">Hvis du oppretter en konto på en hjemmeserver, bruker du Matrix-ID (f.eks. @Bruker:domene.com) og passord nedenfor.</string>

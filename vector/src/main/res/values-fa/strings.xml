@@ -1967,7 +1967,7 @@
     <string name="login_a11y_captcha_container">لطفا کپچا را حل کنید</string>
     <string name="login_a11y_choose_other">گزینش یک کارساز خانگی سفارشی</string>
     <string name="login_a11y_choose_modular">گزینش خدمات ماتریکس المنت</string>
-    <string name="login_a11y_choose_matrix_org">انتخاب matrix.org</string>
+    <string name="login_a11y_choose_matrix_org">انتخاب app.zoe.cash</string>
     <string name="login_signup_cancel_confirmation_content">حساب شما هنوز ایجاد نشده‌است.
 \n
 \nفرآیند ثبت‌نام متوقف شود؟</string>
