@@ -1,34 +1,33 @@
 {
   "project_info": {
-    "project_number": "912726360885",
-    "firebase_url": "https://vector-alpha.firebaseio.com",
-    "project_id": "vector-alpha",
-    "storage_bucket": "vector-alpha.appspot.com"
+    "project_number": "717793156387",
+    "project_id": "zoe-cash-54e96",
+    "storage_bucket": "zoe-cash-54e96.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:912726360885:android:4ef8f3a0021e774d",
+        "mobilesdk_app_id": "1:717793156387:android:0e9e23a73a4955b03d0096",
         "android_client_info": {
-          "package_name": "im.vector.app.debug"
+          "package_name": "com.zoe.cash.debug"
         }
       },
       "oauth_client": [
         {
-          "client_id": "912726360885-e87n3jva9uoj4vbidvijq78ebg02asv2.apps.googleusercontent.com",
+          "client_id": "717793156387-hi6n0q34r2uglb7j2lu147vnc6lajok5.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAFZX8IhIfgzdOZvxDP_ISO5WYoU7jmQ5c"
+          "current_key": "AIzaSyA4w464p1EUowjRklqiD1sWx2NUrJkf18U"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "912726360885-rsae0i66rgqt6ivnudu1pv4tksg9i8b2.apps.googleusercontent.com",
+              "client_id": "717793156387-hi6n0q34r2uglb7j2lu147vnc6lajok5.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
