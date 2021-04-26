@@ -246,7 +246,7 @@ class BugReporter @Inject constructor(
                 }
 
                 if (!mIsCancelled) {
-                    val text = "[Element] " +
+                    val text = "[ZOE Community] " +
                             if (forSuggestion) {
                                 "[Suggestion] "
                             } else {
@@ -319,7 +319,7 @@ class BugReporter @Inject constructor(
                     builder.addFormDataPart("label", context.getString(R.string.git_branch_name))
 
                     // Special for RiotX
-                    builder.addFormDataPart("label", "[Element]")
+                    builder.addFormDataPart("label", "[ZOE Community]")
 
                     // Suggestion
                     if (forSuggestion) {
