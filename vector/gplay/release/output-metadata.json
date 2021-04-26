@@ -19,18 +19,6 @@
       "filters": [
         {
           "filterType": "ABI",
-          "value": "arm64-v8a"
-        }
-      ],
-      "versionCode": 40101012,
-      "versionName": "1.1.1-dev",
-      "outputFile": "vector-gplay-arm64-v8a-release.apk"
-    },
-    {
-      "type": "ONE_OF_MANY",
-      "filters": [
-        {
-          "filterType": "ABI",
           "value": "x86_64"
         }
       ],
@@ -61,6 +49,18 @@
       "versionCode": 40101011,
       "versionName": "1.1.1-dev",
       "outputFile": "vector-gplay-armeabi-v7a-release.apk"
+    },
+    {
+      "type": "ONE_OF_MANY",
+      "filters": [
+        {
+          "filterType": "ABI",
+          "value": "arm64-v8a"
+        }
+      ],
+      "versionCode": 40101012,
+      "versionName": "1.1.1-dev",
+      "outputFile": "vector-gplay-arm64-v8a-release.apk"
     }
   ]
 }

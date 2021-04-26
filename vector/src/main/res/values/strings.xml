@@ -159,7 +159,7 @@
 
     <!-- general errors -->
     <string name="network_error">Network error</string>
-    <string name="matrix_error">Matrix error</string>
+    <string name="matrix_error">ZOE Community error</string>
 
     <!-- Home Screen -->
 
@@ -479,7 +479,7 @@
     <string name="direct_chats_header">Conversations</string>
     <string name="local_address_book_header">Local address book</string>
     <string name="user_directory_header">User directory</string>
-    <string name="matrix_only_filter">Matrix contacts only</string>
+    <string name="matrix_only_filter">ZOE Community contacts only</string>
     <string name="no_conversation_placeholder">No conversations</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_no_contact_access_placeholder">You didn’t allow ${app_name} to access your local contacts</string>
@@ -634,7 +634,7 @@
     <string name="login_error_unable_register_mail_ownership">Unable to register : email ownership failure</string>
     <string name="login_error_invalid_home_server">Please enter a valid URL</string>
     <string name="login_error_unknown_host">This URL is not reachable, please check it</string>
-    <string name="login_error_no_homeserver_found">This is not a valid Matrix server address</string>
+    <string name="login_error_no_homeserver_found">This is not a valid ZOE Community server address</string>
     <string name="login_error_homeserver_not_found">Cannot reach a homeserver at this URL, please check it</string>
     <string name="login_error_ssl_peer_unverified">"SSL Error: the peer's identity has not been verified."</string>
     <string name="login_error_ssl_other">"SSL Error."</string>
@@ -744,9 +744,9 @@
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_permissions_rationale_msg_camera_and_audio">${app_name} needs permission to access your camera and your microphone to perform video calls.\n\nPlease allow access on the next pop-ups to be able to make the call.</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_permissions_rationale_msg_contacts">${app_name} can check your address book to find other Matrix users based on their email and phone numbers. If you agree to share your address book for this purpose, please allow access on the next pop-up.</string>
+    <string name="template_permissions_rationale_msg_contacts">${app_name} can check your address book to find other ZOE Community users based on their email and phone numbers. If you agree to share your address book for this purpose, please allow access on the next pop-up.</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_permissions_msg_contacts_warning_other_androids">${app_name} can check your address book to find other Matrix users based on their email and phone numbers.\n\nDo you agree to share your address book for this purpose?</string>
+    <string name="template_permissions_msg_contacts_warning_other_androids">${app_name} can check your address book to find other ZOE Community users based on their email and phone numbers.\n\nDo you agree to share your address book for this purpose?</string>
 
     <string name="permissions_action_not_performed_missing_permissions">Sorry. Action not performed, due to missing permissions</string>
     <string name="permissions_denied_qr_code">To scan a QR code, you need to allow camera access.</string>
@@ -889,11 +889,11 @@
     <string name="people_search_invite_by_id"><u>Invite by ID</u></string>
     <string name="people_search_local_contacts">LOCAL CONTACTS (%d)</string>
     <string name="people_search_user_directory">USER DIRECTORY (%s)</string>
-    <string name="people_search_filter_text">Matrix users only</string>
+    <string name="people_search_filter_text">ZOE Community users only</string>
 
     <string name="people_search_invite_by_id_dialog_title">Invite user by ID</string>
-    <string name="people_search_invite_by_id_dialog_description">Please enter one or more email address or Matrix ID</string>
-    <string name="people_search_invite_by_id_dialog_hint">Email or Matrix ID</string>
+    <string name="people_search_invite_by_id_dialog_description">Please enter one or more email address or ZOE Community ID</string>
+    <string name="people_search_invite_by_id_dialog_hint">Email or ZOE Community ID</string>
 
     <!--  Chat -->
     <string name="room_menu_search">Search</string>
@@ -967,7 +967,7 @@
         <item quantity="one">%d selected</item>
         <item quantity="other">%d selected</item>
     </plurals>
-    <string name="malformed_id">Malformed ID. Should be an email address or a Matrix ID like \'@localpart:domain\'</string>
+    <string name="malformed_id">Malformed ID. Should be an email address or a ZOE Community ID like \'@localpart:domain\'</string>
     <string name="room_details_people_invited_group_name">INVITED</string>
     <string name="room_details_people_present_group_name">JOINED</string>
 
@@ -1155,7 +1155,7 @@
     <string name="settings_notification_privacy_no_background_sync">The apps does <b>not</b> need to connect to the HomeServer in the background, it should reduce battery usage</string>
     <string name="settings_notification_privacy_fcm">• Notifications are sent via Firebase Cloud Messaging</string>
     <string name="settings_notification_privacy_metadata">• Notifications only contain meta data</string>
-    <string name="settings_notification_privacy_secure_message_content">• Message content of the notification is <b>located securely direct from the Matrix homeserver</b></string>
+    <string name="settings_notification_privacy_secure_message_content">• Message content of the notification is <b>located securely direct from the ZOE Community homeserver</b></string>
     <string name="settings_notification_privacy_nosecure_message_content">• Notifications contain <b>meta and message data</b></string>
     <string name="settings_notification_privacy_message_content_not_shown">• Notifications will <b>not show message content</b></string>
 
@@ -1334,7 +1334,7 @@
     <string name="passwords_do_not_match">Passwords do not match</string>
 
     <string name="settings_emails_and_phone_numbers_title">Emails and phone numbers</string>
-    <string name="settings_emails_and_phone_numbers_summary">Manage emails and phone numbers linked to your Matrix account</string>
+    <string name="settings_emails_and_phone_numbers_summary">Manage emails and phone numbers linked to your ZOE Community account</string>
 
     <string name="settings_delete_notification_targets_confirmation">Are you sure you want to remove this notification target?</string>
 
@@ -1410,14 +1410,14 @@
     <string name="room_alias_published_alias_add_manually_submit">Publish</string>
     <string name="room_alias_unpublish_confirmation">Unpublish the address \"%1$s\"?</string>
     <string name="room_alias_delete_confirmation">Delete the address \"%1$s\"?</string>
-    <!-- Parameter will be the url of the homeserver, ex: matrix.org -->
+    <!-- Parameter will be the url of the homeserver, ex: ZOE Community.org -->
     <string name="room_alias_publish">Publish this room to the public in %1$s\'s room directory?</string>
     <string name="room_alias_address_empty_can_add">No other published addresses yet, add one below.</string>
     <string name="room_alias_address_empty">No other published addresses yet.</string>
     <string name="room_alias_address_hint">New published address (e.g. #alias:server)</string>
 
     <string name="room_alias_local_address_title">Local Addresses</string>
-    <!-- Parameter will be the url of the homeserver, ex: matrix.org -->
+    <!-- Parameter will be the url of the homeserver, ex: ZOE Community.org -->
     <string name="room_alias_local_address_subtitle">Set addresses for this room so users can find this room through your homeserver (%1$s)</string>
     <string name="room_alias_local_address_empty">This room has no local addresses</string>
     <string name="room_alias_local_address_add">Add a local address</string>
@@ -1425,7 +1425,7 @@
     <string name="room_alias_action_publish">Publish this address</string>
     <string name="room_alias_action_unpublish">Unpublish this address</string>
 
-    <!-- Parameter will be the url of the homeserver, ex: matrix.org -->
+    <!-- Parameter will be the url of the homeserver, ex: ZOE Community.org -->
     <string name="room_alias_publish_to_directory">Publish this room to the public in %1$s\'s room directory?</string>
     <!-- Parameter will be a technical error message -->
     <string name="room_alias_publish_to_directory_error">Unable to retrieve the current room directory visibility (%1$s).</string>
@@ -1464,10 +1464,10 @@
 
     <!-- Room settings: advanced addresses -->
     <string name="room_settings_addresses_no_local_addresses">This room has no local addresses</string>
-    <string name="room_settings_addresses_add_new_address">New address (e.g #foo:matrix.org")</string>
+    <string name="room_settings_addresses_add_new_address">New address (e.g #foo:ZOE Community.org")</string>
 
     <string name="room_settings_no_flair">This room is not showing flair for any communities</string>
-    <string name="room_settings_add_new_group">New community ID (e.g +foo:matrix.org")</string>
+    <string name="room_settings_add_new_group">New community ID (e.g +foo:ZOE Community.org")</string>
     <string name="room_settings_invalid_group_format_dialog_title">Invalid community ID</string>
     <string name="room_settings_invalid_group_format_dialog_body">\'%s\' is not a valid community ID</string>
 
@@ -1490,7 +1490,7 @@
     <string name="directory_title">Directory</string>
     <string name="settings_theme">Theme</string>
 
-    <!-- matrix error -->
+    <!-- ZOE Community error -->
     <string name="failed_to_load_timeline_position">%s was trying to load a specific point in this room’s timeline but was unable to find it.</string>
 
     <!-- encryption dialog -->
@@ -1675,7 +1675,7 @@
     <string name="widget_integration_missing_parameter">A required parameter is missing.</string>
     <string name="widget_integration_invalid_parameter">A parameter is not valid.</string>
     <string name="integration_manager_not_configured">No integration manager configured.</string>
-    <string name="room_add_matrix_apps">Add Matrix apps</string>
+    <string name="room_add_matrix_apps">Add ZOE Community apps</string>
     <string name="room_manage_integrations">Manage Integrations</string>
     <string name="room_no_active_widgets">No active widgets</string>
     <string name="settings_labs_native_camera">Use native camera</string>
@@ -1722,7 +1722,7 @@
     <string name="command_description_kick_user">Kicks user with given id</string>
     <string name="command_description_nick">Changes your display nickname</string>
     <string name="command_description_markdown">On/Off markdown</string>
-    <string name="command_description_clear_scalar_token">To fix Matrix Apps management</string>
+    <string name="command_description_clear_scalar_token">To fix ZOE Community Apps management</string>
 
     <string name="markdown_has_been_enabled">Markdown has been enabled.</string>
     <string name="markdown_has_been_disabled">Markdown has been disabled.</string>
@@ -1782,7 +1782,7 @@
 
     <!-- Deactivate account screen -->
     <string name="deactivate_account_title">Deactivate Account</string>
-    <string name="deactivate_account_content">This will make your account permanently unusable. You will not be able to log in, and no one will be able to re-register the same user ID. This will cause your account to leave all rooms it is participating in, and it will remove your account details from your identity server. <b>This action is irreversible</b>.\n\nDeactivating your account <b>does not by default cause us to forget messages you have sent</b>. If you would like us to forget your messages, please tick the box below.\n\nMessage visibility in Matrix is similar to email. Our forgetting your messages means that messages you have sent will not be shared with any new or unregistered users, but registered users who already have access to these messages will still have access to their copy.</string>
+    <string name="deactivate_account_content">This will make your account permanently unusable. You will not be able to log in, and no one will be able to re-register the same user ID. This will cause your account to leave all rooms it is participating in, and it will remove your account details from your identity server. <b>This action is irreversible</b>.\n\nDeactivating your account <b>does not by default cause us to forget messages you have sent</b>. If you would like us to forget your messages, please tick the box below.\n\nMessage visibility in ZOE Community is similar to email. Our forgetting your messages means that messages you have sent will not be shared with any new or unregistered users, but registered users who already have access to these messages will still have access to their copy.</string>
     <string name="deactivate_account_delete_checkbox">Please forget all messages I have sent when my account is deactivated (Warning: this will cause future users to see an incomplete view of conversations)</string>
     <string name="deactivate_account_prompt_password">To continue, please enter your password:</string>
     <string name="deactivate_account_submit">Deactivate Account</string>
@@ -1847,7 +1847,7 @@
 
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_keys_backup_passphrase_not_empty_error_message">Please delete the passphrase if you want ${app_name} to generate a recovery key.</string>
-    <string name="keys_backup_no_session_error">No Matrix session available</string>
+    <string name="keys_backup_no_session_error">No ZOE Community session available</string>
 
     <string name="keys_backup_setup_step1_title">Never lose encrypted messages</string>
     <string name="keys_backup_setup_step1_description">Messages in encrypted rooms are secured with end-to-end encryption. Only you and the recipient(s) have the keys to read these messages.\n\nSecurely back up your keys to avoid losing them.</string>
@@ -2111,7 +2111,7 @@
 
     <string name="import_e2e_keys_from_file">"Import e2e keys from file \"%1$s\"."</string>
 
-    <string name="settings_sdk_version">Matrix SDK Version</string>
+    <string name="settings_sdk_version">ZOE Community SDK Version</string>
     <string name="settings_other_third_party_notices">Other third party notices</string>
     <string name="navigate_to_room_when_already_in_the_room">You are already viewing this room!</string>
 
@@ -2171,7 +2171,7 @@
     <string name="room_filtering_footer_create_new_direct_message">Send a new direct message</string>
     <string name="room_filtering_footer_open_room_directory">View the room directory</string>
 
-    <string name="room_directory_search_hint">Name or ID (#example:matrix.org)</string>
+    <string name="room_directory_search_hint">Name or ID (#example:ZOE Community.org)</string>
     <string name="user_directory_search_hint">Search by name or ID</string>
 
     <string name="labs_swipe_to_reply_in_timeline">Enable swipe to reply in timeline</string>
@@ -2179,11 +2179,11 @@
 
     <string name="link_copied_to_clipboard">Link copied to clipboard</string>
 
-    <string name="add_by_matrix_id">Add by matrix ID</string>
+    <string name="add_by_matrix_id">Add by ZOE Community ID</string>
     <string name="add_by_qr_code">Add by QR code</string>
     <string name="qr_code">QR code</string>
     <string name="creating_direct_room">"Creating room…"</string>
-    <string name="direct_room_no_known_users">"No result found, use Add by matrix ID to search on server."</string>
+    <string name="direct_room_no_known_users">"No result found, use Add by ZOE Community ID to search on server."</string>
     <string name="direct_room_start_search">"Start typing to get results"</string>
     <string name="direct_room_filter_hint">"Filter by username or ID…"</string>
     <string name="direct_room_user_list_recent_title">Recent</string>
@@ -2253,7 +2253,7 @@
     <string name="a11y_create_menu_open">Open the create room menu</string>
     <string name="a11y_create_menu_close">Close the create room menu…</string>
     <string name="a11y_create_direct_message">Create a new direct conversation</string>
-    <string name="a11y_create_direct_message_by_mxid">Create a new direct conversation by Matrix ID</string>
+    <string name="a11y_create_direct_message_by_mxid">Create a new direct conversation by ZOE Community ID</string>
     <string name="a11y_create_direct_message_by_qr_code">Create a new direct conversation by scanning a QR code</string>
     <string name="a11y_create_room">Create a new room</string>
     <string name="a11y_close_keys_backup_banner">Close keys backup banner</string>
@@ -2474,11 +2474,11 @@
         <item quantity="other">Too many requests have been sent. You can retry in %1$d seconds…</item>
     </plurals>
 
-    <string name="login_connect_using_matrix_id_notice">Alternatively, if you already have an account and you know your Matrix identifier and your password, you can use this method:</string>
-    <string name="login_connect_using_matrix_id_submit">Sign in with Matrix ID</string>
-    <string name="login_signin_matrix_id_title">Sign in with Matrix ID</string>
-    <string name="login_signin_matrix_id_notice">If you set up an account on a homeserver, use your Matrix ID (e.g. @user:domain.com) and password below.</string>
-    <string name="login_signin_matrix_id_hint">Matrix ID</string>
+    <string name="login_connect_using_matrix_id_notice">Alternatively, if you already have an account and you know your ZOE Community identifier and your password, you can use this method:</string>
+    <string name="login_connect_using_matrix_id_submit">Sign in with ZOE Community ID</string>
+    <string name="login_signin_matrix_id_title">Sign in with ZOE Community ID</string>
+    <string name="login_signin_matrix_id_notice">If you set up an account on a homeserver, use your ZOE Community ID (e.g. @user:domain.com) and password below.</string>
+    <string name="login_signin_matrix_id_hint">ZOE Community ID</string>
     <string name="login_signin_matrix_id_password_notice">If you don’t know your password, go back to reset it.</string>
     <string name="login_signin_matrix_id_error_invalid_matrix_id">This is not a valid user identifier. Expected format: \'@user:homeserver.org\'</string>
     <string name="autodiscover_well_known_error">Unable to find a valid homeserver. Please check your identifier</string>
@@ -2507,7 +2507,7 @@
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_soft_logout_sso_not_same_user_error">The current session is for user %1$s and you provide credentials for user %2$s. This is not supported by ${app_name}.\nPlease first clear data, then sign in again on another account.</string>
 
-    <string name="permalink_malformed">Your matrix.to link was malformed</string>
+    <string name="permalink_malformed">Your ZOE Community.to link was malformed</string>
     <string name="bug_report_error_too_short">The description is too short</string>
 
     <string name="notification_initial_sync">Initial Sync…</string>
@@ -2936,12 +2936,12 @@
     <string name="change_password_summary">Set a new account password…</string>
 
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
-    <string name="template_use_other_session_content_description">Use the latest ${app_name} on your other devices, ${app_name} Web, ${app_name} Desktop, ${app_name} iOS, ${app_name} for Android, or another cross-signing capable Matrix client</string>
+    <string name="template_use_other_session_content_description">Use the latest ${app_name} on your other devices, ${app_name} Web, ${app_name} Desktop, ${app_name} iOS, ${app_name} for Android, or another cross-signing capable ZOE Community client</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_app_desktop_web">${app_name} Web\n${app_name} Desktop</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_app_ios_android">${app_name} iOS\n${app_name} Android</string>
-    <string name="or_other_mx_capabale_client">or another cross-signing capable Matrix client</string>
+    <string name="or_other_mx_capabale_client">or another cross-signing capable ZOE Community client</string>
     <!-- Note to translators: the translation MUST contain the string "${app_name}", which will be replaced by the application name -->
     <string name="template_use_latest_app">Use the latest ${app_name} on your other devices:</string>
     <string name="command_description_discard_session">Forces the current outbound group session in an encrypted room to be discarded</string>
@@ -3004,7 +3004,7 @@
     <string name="template_invite_friends_rich_title">🔐️ Join me on ${app_name}</string>
     <string name="invitation_sent_to_one_user">Invitation sent to %1$s</string>
     <string name="invitations_sent_to_two_users">Invitations sent to %1$s and %2$s</string>
-    <string name="not_a_valid_qr_code">"It's not a valid matrix QR code"</string>
+    <string name="not_a_valid_qr_code">"It's not a valid ZOE Community QR code"</string>
     <plurals name="invitations_sent_to_one_and_more_users">
         <item quantity="one">Invitations sent to %1$s and one more</item>
         <item quantity="other">Invitations sent to %1$s and %2$d more</item>
@@ -3097,7 +3097,7 @@
     <string name="loading_contact_book">Retrieving your contacts…</string>
     <string name="empty_contact_book">Your contact book is empty</string>
     <string name="contacts_book_title">Contacts book</string>
-    <string name="phone_book_perform_lookup">Search for contacts on Matrix</string>
+    <string name="phone_book_perform_lookup">Search for contacts on ZOE Community</string>
 
     <string name="three_pid_revoke_invite_dialog_title">Revoke invite</string>
     <string name="three_pid_revoke_invite_dialog_content">Revoke invite to %1$s?</string>
@@ -3160,7 +3160,7 @@
     <string name="warning_unsaved_change">There are unsaved changes. Discard the changes?</string>
     <string name="warning_unsaved_change_discard">Discard changes</string>
 
-    <string name="matrix_to_card_title">Matrix Link</string>
+    <string name="matrix_to_card_title">ZOE Community Link</string>
 
     <string name="call_tile_you_started_call">You started a call</string>
     <string name="call_tile_other_started_call">%1$s started a call</string>
