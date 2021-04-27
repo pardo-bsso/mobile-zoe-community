@@ -2372,11 +2372,11 @@
 
     <string name="login_continue">Continue</string>
     <!-- Replaced string is the homeserver url -->
-    <string name="login_connect_to">Connect to %1$s</string>
+    <string name="login_connect_to">Connect ZOE Community</string>
     <string name="login_connect_to_modular">Connect to ZOE Community  Services</string>
     <string name="login_connect_to_a_custom_server">Connect to a custom server</string>
     <!-- Replaced string is the homeserver url -->
-    <string name="login_signin_to">Sign in to %1$s</string>
+    <string name="login_signin_to">Sign in</string>
     <string name="login_signup">Sign Up</string>
     <string name="login_signin">Sign In</string>
     <string name="login_signin_sso">Continue with SSO</string>
@@ -2396,7 +2396,7 @@
     <string name="login_login_with_email_error">This email is not associated to any account.</string>
 
     <!-- Replaced string is the homeserver url -->
-    <string name="login_reset_password_on">Reset password on %1$s</string>
+    <string name="login_reset_password_on">Reset password</string>
     <string name="login_reset_password_notice">A verification email will be sent to your inbox to confirm setting your new password.</string>
     <string name="login_reset_password_submit">Next</string>
     <string name="login_reset_password_email_hint">Email</string>
@@ -2410,7 +2410,7 @@
 
     <string name="login_reset_password_mail_confirmation_title">Check your inbox</string>
     <!-- Replaced string is an email -->
-    <string name="login_reset_password_mail_confirmation_notice">A verification email was sent to %1$s.</string>
+    <string name="login_reset_password_mail_confirmation_notice">A verification email was sent!</string>
     <string name="login_reset_password_mail_confirmation_notice_2">Tap on the link to confirm your new password. Once you\'ve followed the link it contains, click below.</string>
     <string name="login_reset_password_mail_confirmation_submit">I have verified my email address</string>
 
@@ -2437,7 +2437,7 @@
 
     <string name="login_msisdn_confirm_title">Confirm phone number</string>
     <!-- Template will be replaced by a phone number -->
-    <string name="login_msisdn_confirm_notice">We just sent a code to %1$s. Enter it below to verify it’s you.</string>
+    <string name="login_msisdn_confirm_notice">We just sent a code. Enter it below to verify it’s you.</string>
     <string name="login_msisdn_confirm_hint">Enter code</string>
     <string name="login_msisdn_confirm_send_again">Send again</string>
     <string name="login_msisdn_confirm_submit">Next</string>
@@ -2447,7 +2447,7 @@
     <string name="login_msisdn_error_other">"Phone number seems invalid. Please check it"</string>
 
     <!-- Replaced string is the homeserver url -->
-    <string name="login_signup_to">Sign up to %1$s</string>
+    <string name="login_signup_to">Sign up</string>
     <string name="login_signin_username_hint">Username or email</string>
     <string name="login_signup_username_hint">Username</string>
     <string name="login_signup_password_hint">Password</string>
@@ -2456,14 +2456,14 @@
     <string name="login_signup_cancel_confirmation_title">Warning</string>
     <string name="login_signup_cancel_confirmation_content">Your account is not created yet.\n\nStop the registration process?</string>
 
-    <string name="login_a11y_choose_matrix_org">Select app.zoe.cash</string>
+    <string name="login_a11y_choose_matrix_org">Select app.zoe.community</string>
     <string name="login_a11y_choose_modular">Select ZOE Community  Services</string>
     <string name="login_a11y_choose_other">Select a custom homeserver</string>
     <string name="login_a11y_captcha_container">Please perform the captcha challenge</string>
     <string name="login_terms_title">Accept terms to continue</string>
 
     <string name="login_wait_for_email_title">Please check your email</string>
-    <string name="login_wait_for_email_notice">We just sent an email to %1$s.\nPlease click on the link it contains to continue the account creation.</string>
+    <string name="login_wait_for_email_notice">We just sent an email \nPlease click on the link it contains to continue the account creation.</string>
     <string name="login_validation_code_is_not_correct">The entered code is not correct. Please check.</string>
     <string name="login_error_outdated_homeserver_title">Outdated homeserver</string>
     <string name="login_error_outdated_homeserver_content">This homeserver is running too old a version to connect to. Ask your homeserver admin to upgrade.</string>
@@ -2492,7 +2492,7 @@
     <string name="soft_logout_title">You’re signed out</string>
     <string name="soft_logout_signin_title">Sign in</string>
     <!-- Replacement: homeserver url, user display name and userId -->
-    <string name="soft_logout_signin_notice">Your homeserver (%1$s) admin has signed you out of your account %2$s (%3$s).</string>
+    <string name="soft_logout_signin_notice">Your server admin has signed you out of your account %2$s (%3$s).</string>
     <string name="soft_logout_signin_e2e_warning_notice">Sign in to recover encryption keys stored exclusively on this device. You need them to read all of your secure messages on any device.</string>
     <string name="soft_logout_signin_submit">Sign in</string>
     <string name="soft_logout_signin_password_hint">Password</string>

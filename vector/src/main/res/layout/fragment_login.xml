@@ -7,12 +7,17 @@
     android:layout_height="match_parent"
     android:background="?riotx_background">
 
-    <androidx.core.widget.NestedScrollView style="@style/LoginFormScrollView">
+    <androidx.core.widget.NestedScrollView
+        style="@style/LoginFormScrollView"
+        android:layout_height="match_parent">
 
         <LinearLayout style="@style/LoginFormContainer">
 
             <ImageView
+                android:id="@+id/loginSplashLogo"
                 style="@style/LoginLogo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
                 tools:ignore="ContentDescription" />
 
             <ImageView
@@ -20,6 +25,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:importantForAccessibility="no"
+                android:visibility="invisible"
                 app:tint="?riotx_text_primary"
                 tools:ignore="MissingPrefix"
                 tools:src="@drawable/ic_logo_matrix_org" />

@@ -487,7 +487,7 @@ class NotificationUtils @Inject constructor(private val context: Context,
         val accentColor = ContextCompat.getColor(context, R.color.notification_accent_color)
         // Build the pending intent for when the notification is clicked
         val openRoomIntent = buildOpenRoomIntent(roomInfo.roomId)
-        val smallIcon = R.drawable.ic_status_bar
+        val smallIcon = R.drawable.ic_launcher_foreground
 
         val channelID = if (roomInfo.shouldBing) NOISY_NOTIFICATION_CHANNEL_ID else SILENT_NOTIFICATION_CHANNEL_ID
         return NotificationCompat.Builder(context, channelID)

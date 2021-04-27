@@ -13,6 +13,8 @@
 
             <ImageView
                 style="@style/LoginLogo"
+                android:layout_width="85dp"
+                android:layout_height="85dp"
                 tools:ignore="ContentDescription" />
 
             <!-- Displayed only for EMS -->
@@ -22,6 +24,7 @@
                 android:layout_height="wrap_content"
                 android:importantForAccessibility="no"
                 android:src="@drawable/ic_logo_element_matrix_services"
+                android:visibility="invisible"
                 app:tint="?riotx_text_primary"
                 tools:ignore="MissingPrefix" />
 

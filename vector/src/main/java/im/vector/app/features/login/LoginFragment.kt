@@ -167,19 +167,18 @@ class LoginFragment @Inject constructor() : AbstractSSOLoginFragment<FragmentLog
 
             when (state.serverType) {
                 ServerType.MatrixOrg -> {
-                    views.loginServerIcon.isVisible = true
                     views.loginServerIcon.setImageResource(R.drawable.zoecommunity)
                     views.loginTitle.text = getString(resId, state.homeServerUrl.toReducedUrl())
                     views.loginNotice.text = getString(R.string.login_server_matrix_org_text)
                 }
                 ServerType.EMS       -> {
-                    views.loginServerIcon.isVisible = true
-                    views.loginServerIcon.setImageResource(R.drawable.ic_logo_element_matrix_services)
+                    views.loginServerIcon.setImageResource(R.drawable.zoecommunity)
+                    views.loginServerIcon.setImageResource(R.drawable.zoecommunity)
                     views.loginTitle.text = getString(resId, "Element Matrix Services")
                     views.loginNotice.text = getString(R.string.login_server_modular_text)
                 }
                 ServerType.Other     -> {
-                    views.loginServerIcon.isVisible = false
+                    views.loginServerIcon.setImageResource(R.drawable.zoecommunity)
                     views.loginTitle.text = getString(resId, state.homeServerUrl.toReducedUrl())
                     views.loginNotice.text = getString(R.string.login_server_other_text)
                 }
